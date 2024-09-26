@@ -1,0 +1,100 @@
+client -p 8000 -f download_file3
+client -p 8000 -d download_dir
+quit
+new
+quit
+sleep
+quit
+server
+quit
+server
+server -s
+server -p 8000
+quit
+server -p 7000 -d /home/steven/temp
+client -p 7000 -f download_file1
+client -p 7000 -f download_file2
+client -p 7000 -d download_dir
+server -s
+server -p 7000 -d /home/steven/temp
+quit
+server -h
+client -h
+server -h
+quit
+client -h
+server -h
+quit
+help
+quit
+help
+new
+ih steven
+quit
+help
+new
+ih steven
+quit
+help
+new
+quit
+new
+quit
+new
+quit
+new
+quit
+help
+new
+quit
+help
+new
+ih steven
+it mark
+ih RAND 3
+it RAND 3
+size
+reverse
+sort
+server -p 8000 -d /home/steven/temp
+quit
+new
+quit
+help
+new
+ih steven
+it mark
+ih RAND 3
+it RAND 3
+size
+reverse
+sort
+server -p 8000 -d /home/steven/temp
+server -s
+quit
+server -p 8000 -d /home/steven/temp
+quit
+help
+new
+ih steven
+it mark
+ih RAND 3
+it RAND 3
+size
+reverse
+sort
+server -p 8000 -d /home/steven/temp
+quit
+new
+quit
+help
+new
+ih steven
+it mark
+ih RAND 3
+it RAND 3
+size
+reverse
+sort
+server -p 8000 -d /home/steven/temp
+quit
